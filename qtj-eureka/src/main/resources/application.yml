@@ -1,0 +1,13 @@
+#端口号
+server:
+  port: 28090
+eureka:
+  instance:
+    hostname: 127.0.0.1 #服务注册中心IP地址
+
+spring:
+  application:
+    name: qtj-eureka
+  # dev:开发配置、test:测试配置、prod: 发布配置;
+  profiles:
+    active: ${config.active:dev}
