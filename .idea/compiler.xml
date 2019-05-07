@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="qtj-eureka" />
         <module name="qtj-consumer" />
-        <module name="eureka-service" />
         <module name="qtj-provider1" />
         <module name="qtj-provider" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="qtj-service" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
